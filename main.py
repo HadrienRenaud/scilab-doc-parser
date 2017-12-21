@@ -5,9 +5,11 @@
 """Fichier python créé le 20/12/2017 par Hadrien Renaud."""
 
 
+import parser
+
 
 def main():
-	print("Lancé")
+	print(parser.parse(".dev_perso/test_dir"))
 
 
 
